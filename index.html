@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>\
+    <link rel="stylesheet" href="style.css">
+</head>
+<body onload="getData()">
+    <div class="box">
+        <input type="text" onchange="getData()" id ="search" value="pokhara" placeholder="n">
+        <div class="data">
+            <div class="buttons-group">
+                <div class="temp"><h1><span id="temp">24</span><sup>o</sup>
+                 <br>
+                    Celcius
+                </h1></div>
+
+                <div class="temp"><h1>Humidity:- <span id="hd">24</span></h1></div>
+            </div>
+            <div class="buttons-group">
+                <div class="temp"><h1>Wind-Speed:- <span id="ws">24</span></h1></div>
+                <div class="temp"><h1>Pressure:- <span id="p">24</span></h1></div>
+            </div>
+            <div class="buttons-group">
+                <div class="temp"><h1>Sea-Level:- <span id="sl">24</span></h1></div>
+                <div class="temp"><h1>Ground-level:- <span id="gl">24</span></h1></div>
+            </div>
+            <div class="buttons-group">
+                <div class="temp"><h1>Cloud:- <span id="cl">24</span>%</h1></div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
